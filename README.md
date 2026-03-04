@@ -38,7 +38,6 @@
 
 ### Prerequisites
 * Python 3.8+
-* Scapy or relevant networking libraries
 
 ### Setup
 ```bash
@@ -46,7 +45,7 @@
 git clone https://github.com/D43eM0N/py-map.git
 
 # Navigate to directory
-cd py-map
+cd PyMap
 
 # Install dependencies
 pip install -r requirements.txt
