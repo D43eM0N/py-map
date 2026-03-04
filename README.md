@@ -34,3 +34,22 @@
 |         __/ |            | |       |
 |        |___/             |_|       |
 └────────────────────────────────────────┘
+## 🚀 Installation & Usage
+
+### Prerequisites
+* Python 3.8+
+* Scapy or relevant networking libraries
+
+### Setup
+```bash
+# Clone the repository
+git clone https://github.com/D43eM0N/py-map.git
+
+# Navigate to directory
+cd py-map
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Launch PyMap
+python pymap.py
