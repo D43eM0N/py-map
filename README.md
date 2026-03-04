@@ -64,3 +64,14 @@ Asynchronous I/O: Utilizes asyncio to perform non-blocking port scans, significa
 Socket Programming: Direct implementation of the socket library for TCP handshaking and service detection.
 
 Modular Design: A clean separation between the CLI controller and the networking logic, allowing for easy expansion.
+
+#License
+
+License
+Copyright © 2025 D43eM0N
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+##Contributing & Feedback
+
+This is my first project, and I am committed to improving its efficiency and security. If you have any suggestions, performance improvements, or find any bugs, please feel free to open an Issue or submit a Pull Request. All constructive feedback is welcome!
