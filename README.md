@@ -34,21 +34,33 @@
 |         __/ |            | |       |
 |        |___/             |_|       |
 └────────────────────────────────────────┘
-## 🚀 Installation & Usage
+```
+##🚀 Installation & Usage
+Prerequisites
+Python 3.8+
 
-### Prerequisites
-* Python 3.8+
+No external libraries required (Uses standard asyncio, socket, and subprocess).
 
-### Setup
-```bash
+Setup
+Bash
 # Clone the repository
 git clone https://github.com/D43eM0N/py-map.git
 
 # Navigate to directory
-cd PyMap
-
-# Install dependencies
-pip install -r requirements.txt
+cd py-map
 
 # Launch PyMap
 python pymap.py
+Quick Commands
+Host Scan: use 1 -> pingsweep -d [IP] -n [Interface] -s
+
+Port Scan: use 2 -> portscanner -d [Target_IP] -s
+
+🧠 Technical Implementation
+This tool was developed to explore low-level networking concepts:
+
+Asynchronous I/O: Utilizes asyncio to perform non-blocking port scans, significantly increasing speed compared to sequential scanning.
+
+Socket Programming: Direct implementation of the socket library for TCP handshaking and service detection.
+
+Modular Design: A clean separation between the CLI controller and the networking logic, allowing for easy expansion.
