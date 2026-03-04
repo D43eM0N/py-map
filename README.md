@@ -10,7 +10,7 @@
 ## Features
 
 * **Interactive Shell:** A custom-built command-line interface with state management (`use`, `back`, `exit`).
-* **📡 PingSweep Module:** * Active host discovery across local subnets.
+* ** PingSweep Module:** * Active host discovery across local subnets.
     * Network interface metadata extraction (IP, Subnet Mask, Gateway).
     * Hostname resolution for identified devices.
 * ** PortScanner Module:**
