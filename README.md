@@ -1,4 +1,4 @@
-# 🛰️ PyMap: Modular Network Discovery & Security Auditor
+#  PyMap: Modular Network Discovery & Security Auditor
 
 ![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
@@ -7,20 +7,20 @@
 
 ---
 
-## 🛠️ Features
+## Features
 
 * **Interactive Shell:** A custom-built command-line interface with state management (`use`, `back`, `exit`).
 * **📡 PingSweep Module:** * Active host discovery across local subnets.
     * Network interface metadata extraction (IP, Subnet Mask, Gateway).
     * Hostname resolution for identified devices.
-* **🔍 PortScanner Module:**
+* ** PortScanner Module:**
     * TCP service identification on specific targets.
     * Common port mapping (SMB, RDP, RPC, etc.).
     * Optimized socket timeout handling for efficient scanning.
 
 ---
 
-## 🖥️ Visual Showcase
+## Visual Showcase
 
 ```text
 ┌────────────────────────────────────────┐
@@ -35,7 +35,7 @@
 |        |___/             |_|       |
 └────────────────────────────────────────┘
 ```
-##🚀 Installation & Usage
+## Installation & Usage
 Prerequisites
 Python 3.8+
 
@@ -47,7 +47,7 @@ Bash
 git clone https://github.com/D43eM0N/py-map.git
 
 # Navigate to directory
-cd py-map
+cd PyMap
 
 # Launch PyMap
 python pymap.py
@@ -56,7 +56,7 @@ Host Scan: use 1 -> pingsweep -d [IP] -n [Interface] -s
 
 Port Scan: use 2 -> portscanner -d [Target_IP] -s
 
-🧠 Technical Implementation
+ Technical Implementation
 This tool was developed to explore low-level networking concepts:
 
 Asynchronous I/O: Utilizes asyncio to perform non-blocking port scans, significantly increasing speed compared to sequential scanning.
