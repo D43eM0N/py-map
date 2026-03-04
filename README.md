@@ -64,10 +64,12 @@ cd PyMap
 
 # Launch PyMap
 python pymap.py
-Quick Commands
+## Quick Commands
 Host Scan: use 1 -> pingsweep -d [IP] -n [Interface] -s
 
 Port Scan: use 2 -> portscanner -d [Target_IP] -s
+
+Help: <module> -h
 
  Technical Implementation
 This tool was developed to explore low-level networking concepts:
