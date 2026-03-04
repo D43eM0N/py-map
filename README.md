@@ -71,7 +71,7 @@ Port Scan: use 2 -> portscanner -d [Target_IP] -s
 
 Help: <module> -h
 
- Technical Implementation
+# Technical Implementation
 This tool was developed to explore low-level networking concepts:
 
 Asynchronous I/O: Utilizes asyncio to perform non-blocking port scans, significantly increasing speed compared to sequential scanning.
