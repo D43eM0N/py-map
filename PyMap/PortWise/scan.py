@@ -8,7 +8,7 @@ async def _scan(ip :str):
 
     bouncer = asyncio.Semaphore(500)
 
-    tasks = [_conn(ip, port, bouncer) for port in range(1024)]
+    tasks = [_conn(ip, port, bouncer) for port in range(1, 1024)]
 
     results =  await asyncio.gather(*tasks)
     
@@ -23,5 +23,6 @@ async def _scan(ip :str):
             
 
             
+
 
     
