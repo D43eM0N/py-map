@@ -1,8 +1,12 @@
-import sys ; sys.path.insert(0, r'..\PyMap')
-from args import _args
 from scan import _scan
-from PortWise.ports import _ports
+from ports import _ports
 import asyncio
+import os
+import sys
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.getcwd(), '..', 'PyMap')))
+
+from args import _args
 
 async def main():
 
