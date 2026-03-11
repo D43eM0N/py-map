@@ -1,4 +1,3 @@
-import socket
 import asyncio
 
 async def _conn(ip: str, port: int, bouncer: asyncio.Semaphore):
@@ -14,7 +13,7 @@ async def _conn(ip: str, port: int, bouncer: asyncio.Semaphore):
             try:
                 await asyncio.wait_for(loop.sock_connect(serv, (ip, port)), timeout=0.5)
                 status = 0
-            except:
+            except (ConnectionRefusedError, asyncio.TimeoutError, OSError):
                 status = 1
             finally:
                 serv.close()
